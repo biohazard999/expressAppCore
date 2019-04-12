@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.ExpressApp.Win" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Utils" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Data" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.ExpressApp" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Office.Core" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Utils" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win.BonusSkins" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win.Grid" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win.Navigation" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win.Printing" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win.RichEdit" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win.TreeList" Version="19.1.2-pre-19072" />
+    <PackageReference Include="DevExpress.Win.VerticalGrid" Version="19.1.2-pre-19072" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\expressAppCore.Module.Win\expressAppCore.Module.Win.csproj" />
+    <ProjectReference Include="..\expressAppCore.Module\expressAppCore.Module.csproj" />
+  </ItemGroup>
+
+</Project>

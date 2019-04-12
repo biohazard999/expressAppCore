@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp.Win" Version="19.1.2-pre-19072" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\expressAppCore.Module\expressAppCore.Module.csproj" />
+  </ItemGroup>
+
+</Project>
